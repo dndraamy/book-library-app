@@ -63,7 +63,7 @@ class _BookCard extends StatelessWidget {
       onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (_) => BookDetailPage()),
+          MaterialPageRoute(builder: (_) => BookDetailPage(book: book)),
         );
       },
       child: Container(
